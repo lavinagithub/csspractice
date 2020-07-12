@@ -38,12 +38,12 @@ body, html {
 
 .topnav a {
   float: left;
+  
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
- 
 }
 
 .topnav a:hover {
@@ -130,37 +130,38 @@ body, html {
 
 /* --- begin about --- */
 .aboutDiv {
- /* 
-  border: 5px solid rgb(92, 200, 115);
-  */
-  width: 80%;
-  margin:auto;
-}
-.aboutDivFlex {
   /*
   border: 5px solid rgb(92, 200, 115);
   */
-  display:flex;
+  width:80%;
+  align-content: center;
   margin:auto;
 }
-.aboutDiv1, .aboutDiv2 {
-  /*
+.aboutDiv1 {
+  /* 
   border: 5px solid rgb(200, 92, 92);
   */
-  flex: 50%;
-  padding:20px;
+   float: left;
+   width: 40%;   
+   margin-left: 5%;
+   position: relative;
 }
 
+.aboutDiv2 {
+  /*
+  border: 5px solid rgb(43, 96, 117);
+  */
+  width: 40%;
+  margin-left:50%;
+}
 /* --- end about --- */
 
 /* --- begin contact --- */
 .contactDiv {
-  
-  border: 5px solid rgb(200, 92, 92);
-  
   border-radius: 5px;
+  background-color: #f2f2f2;
   padding: 20px;
-  width:70%;
+  width:80%;
   margin:auto;
 }
 input[type=text], select, textarea {
@@ -173,7 +174,7 @@ input[type=text], select, textarea {
 
 label {
   padding: 12px 12px 12px 0;
-  
+  display: inline-block;
 }
 
 input[type=submit] {
@@ -187,8 +188,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #1f4721;
+  background-color: #45a049;
 }
+
 
 .col-25 {
   float: left;
