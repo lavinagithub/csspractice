@@ -73,7 +73,7 @@ body, html {
 .homeDiv div {
  /*
   border: 5px solid grey;
-  border-radius: 10%;
+  
   */
   width:80%;
   margin:auto;
@@ -92,7 +92,7 @@ body, html {
 .galleryDiv div {
  /*
   border: 5px solid grey;
-  border-radius: 10%;
+  
   */
   width:80%;
   margin:auto;
@@ -155,9 +155,9 @@ body, html {
 
 /* --- begin contact --- */
 .contactDiv {
-  
+  /*
   border: 5px solid rgb(200, 92, 92);
-  
+  */
   border-radius: 5px;
   padding: 20px;
   width:70%;
@@ -175,7 +175,10 @@ label {
   padding: 12px 12px 12px 0;
   
 }
-
+#submitDiv{
+  
+  float:right;
+}
 input[type=submit] {
   background-color: #4CAF50;
   color: white;
@@ -183,7 +186,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  
 }
 
 input[type=submit]:hover {
@@ -200,4 +203,9 @@ input[type=submit]:hover {
   float: left;
   width: 75%;
   margin-top: 6px;
+}
+footer{
+  text-align: center;
+  margin-top:5%;
+  width: 100%;
 }
